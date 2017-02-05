@@ -1,0 +1,175 @@
+/*
+   Branching Out style sheet
+   Author(s): Jacob Laqua/Dan Capps/Mike Peterson/Mackenzie Larson
+   Filename:         BranchingOut.css
+*/
+
+/* Header styles*/
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+header {
+	margin: 0px auto;
+	width: 80%;
+	text-align: center;
+	padding: 0.3em 0px 0px 0px;
+	text-align: center;
+}
+/* end */
+
+/* Nav bar styles*/
+#myNavbar a {
+    text-decoration: none;
+}
+
+.modal {
+ overflow-y: auto;
+}
+
+.modal-open {
+ overflow: auto;
+}
+
+#myNavbar {
+	background-color: rgb(227,240,225);
+}
+
+#myNavbar a:hover {
+	color: black;
+}
+
+#myNavbar a.current {
+	color: rgb(148,170,102);
+}
+
+.edit-button-style {
+	text-decoration: none;
+	color:rgb(128,128,128);
+}
+/* end */
+
+/*Color class for astricks*/
+.red-astr {
+	color: red;
+}
+/* end */
+
+/* Body styles*/
+body {
+	background-image: url("../pictures/blur.jpg");
+	margin: 0px auto;
+	line-height: 1.5em;
+	font-family: century gothic;
+	width: 100%;
+	overflow: auto;
+	height: 100%;
+}
+/* end */
+
+/* unset bs3 setting */
+.modal-open {
+    overflow: auto;
+}
+/* end */
+
+/* h1 styles */
+h1 {
+	text-transform: uppercase;
+	color: black;
+}
+
+.justify-text {
+		text-align: justify;
+}
+/* end */
+
+/* section styles*/
+section {
+	background-color: ghostwhite;
+	width: 80%;
+	margin-top: -1.6em;
+	padding: 3em 3em 3em 3em;
+}
+
+table th {
+    width: auto;
+}
+
+.center-text{
+	text-align: center;
+}
+
+.right-text{
+	text-align: right;
+}
+/* end */
+
+/* form styles */
+.form-vertical p{
+	text-align: left;
+}
+/* end */
+
+/* Table styles */
+.table th {
+	background-color: rgb(103, 145, 130);
+}
+
+.table-hover tbody tr:hover td {
+	background-color: #D0D0D0;
+}
+
+.table-striped tr {
+	background-color: #F0F0F0;
+}
+/* end */
+
+
+/* Styles for the footer image */
+footer {
+	margin: 0px auto;
+	width: 80%;
+	padding: 0.3em 0px 0px 0px;
+	color:white;
+	text-align: center;
+	background-color:rgb(33,114,84);
+}
+
+footer a {
+	color:white;
+}
+
+.log-border {
+	border-left: 1.5px solid orange;
+	border-right: 1.5px solid orange;
+}
+
+.log-list-nav {
+    background-color: rgb(216,234,213);
+}
+
+.log-list-nav a{
+	color: white;
+}
+
+.log-list-nav:hover{
+    background-color: rgb(201, 226, 197);
+}
+
+.contrast{
+	color: rgb(167,167,167);
+}
+
+h2 {
+	text-align: center;
+}
+/* end */
+
+/* Icon styles */
+.icons {
+    margin: 1%;
+    font-size: 2em;
+}
+/* end */
