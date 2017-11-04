@@ -6,13 +6,12 @@
 
 /* Header styles*/
 html {
-    overflow: hidden;
-    height: 100%;
+
 }
 
 header {
 	margin: 0px auto;
-	width: 80%;
+	/*width: 80%;*/
 	text-align: center;
 	padding: 0.3em 0px 0px 0px;
 	text-align: center;
@@ -22,14 +21,8 @@ header {
 /* Nav bar styles*/
 #myNavbar a {
     text-decoration: none;
-}
-
-.modal {
- overflow-y: auto;
-}
-
-.modal-open {
- overflow: auto;
+	font-size: 1.2em;
+	color: rgb(50, 50, 50);
 }
 
 #myNavbar {
@@ -37,11 +30,11 @@ header {
 }
 
 #myNavbar a:hover {
-	color: black;
+	color: rgb(33,114,84);
 }
 
 #myNavbar a.current {
-	color: rgb(148,170,102);
+	color: rgb(33,114,84);
 }
 
 .edit-button-style {
@@ -58,19 +51,10 @@ header {
 
 /* Body styles*/
 body {
-	background-image: url("../pictures/blur.jpg");
-	margin: 0px auto;
+	/*background-image: url("../pictures/blur.jpg");*/
 	line-height: 1.5em;
 	font-family: century gothic;
-	width: 100%;
 	overflow: auto;
-	height: 100%;
-}
-/* end */
-
-/* unset bs3 setting */
-.modal-open {
-    overflow: auto;
 }
 /* end */
 
@@ -88,7 +72,7 @@ h1 {
 /* section styles*/
 section {
 	background-color: ghostwhite;
-	width: 80%;
+	/*width: 80%;*/
 	margin-top: -1.6em;
 	padding: 3em 3em 3em 3em;
 }
@@ -107,9 +91,7 @@ table th {
 /* end */
 
 /* form styles */
-.form-vertical p{
-	text-align: left;
-}
+
 /* end */
 
 /* Table styles */
@@ -130,11 +112,11 @@ table th {
 /* Styles for the footer image */
 footer {
 	margin: 0px auto;
-	width: 80%;
+	/*width: 80%;*/
 	padding: 0.3em 0px 0px 0px;
 	color:white;
 	text-align: center;
-	background-color:rgb(33,114,84);
+	background-color: rgb(33,114,84);
 }
 
 footer a {

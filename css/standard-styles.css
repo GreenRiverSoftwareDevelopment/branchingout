@@ -1,0 +1,204 @@
+/* body styles */
+#body {
+
+}
+
+/* div styles */
+.jumbotron {
+    background-color:transparent !important;
+}
+
+.input-group {
+    margin-top: 0.5em;
+}
+
+.bot-border {
+    padding-bottom: 5px;
+    border-bottom: 2px solid orange;
+}
+
+
+/* nav styles */
+.hover-link:hover {
+    color: gray;
+    text-decoration: none;
+    border-bottom: 3px solid #188c3c;
+
+}
+
+.current {
+    border-bottom: 3px solid rgb(33,114,84);
+    overflow: hidden;
+}
+
+/* button styles */
+input[type="submit"] {
+    background-color: rgb(33,114,84);
+    color: white;
+    border: none;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(33,114,84,0.8);
+    color: white;
+    border: none;
+    
+}
+
+
+/* footer styles */
+footer {
+   margin-top: 10em;
+   text-align: center;
+}
+
+/* paddings */
+#payment-checkbox-display label {
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border-color: rgb(33,114,84);
+    background-color: white;
+    margin: 2px 2px 2px 2px;
+    display: inline-block;
+    float: left;
+    width: 8em;
+    text-align: center;
+}
+
+#payment-checkbox-display label:hover {
+    color: white;
+    background-color: rgb(33,114,84);
+    padding: 5px 5px 5px 5px;
+}
+
+#checkbox-display label {
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border-color: rgb(33,114,84);
+    background-color: white;
+    margin: 2px 2px 2px 2px;
+    display: inline-block;
+    float: left;
+    width: 10em;
+    text-align: center;
+}
+
+#checkbox-display label:hover {
+    color: white;
+    background-color: rgb(33,114,84);
+    padding: 5px 5px 5px 5px;
+}
+
+label input {
+	display: none;
+}
+
+label {
+    text-align: center;
+}
+
+input:checked + span {
+    font-weight: bold; 
+    color: rgb(33,114,84);
+    background-color: white;
+    font-size: 1em;
+}
+
+.split-top {
+    margin-top: 5em;
+}
+
+.split-top-sm {
+    margin-top: 1em;
+}
+
+.split-top-md {
+    margin-top: 2em;
+}
+
+.no-pad {
+    padding: 0px 0px 0px 0px !important;
+}
+
+.card-pad {
+    padding: 0.5em 0.5em 0.5em 0.5em !important;
+}
+
+.no-margin {
+    margin: 0px 0px 0px 0px !important;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0px !important;
+}
+
+
+/* Color class's for text */
+.red {
+	color: red;
+}
+
+.orange {
+	color: orange;
+}
+
+.green {
+	color: #188c3c;
+}
+
+.black {
+    color: black !important;
+}
+
+.fa-hover:hover {
+    color: rgba(24, 140, 60, 0.8);    
+}
+
+.blue {
+    color: rgb(0, 159, 236);
+}
+
+.alert-info {
+    background-color: #DCDCDC !important;
+    border-color: #DCDCDC !important;
+    
+}
+
+/* Other text modifications */
+hr {
+    background-color: gray !important;
+    color: gray !important;
+    border: solid 0.5px gray !important;
+    height: 1px !important;
+    width: 100% !important;
+}
+
+
+/* home page profiles page */
+#profiles {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.styled-body {
+    font-size: 1.4em;
+    font-family: Georgia, Consolas;
+}
+
+.indented {
+    text-indent: 3em;
+}
+
+.styled-heading {
+    font-family: 'Roboto', Consolas;
+}
+
+.wrap-text {
+    word-wrap: break-word;
+}
+
